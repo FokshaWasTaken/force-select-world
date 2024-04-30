@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "io.github.foksha.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+	],
+	"client": [
+		"WorldListWidgetMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

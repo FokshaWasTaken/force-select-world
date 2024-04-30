@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "force-select-world",
+	"version": "${version}",
+	"name": "Force Select World",
+	"description": "Opens the select world menu even if you have no world saved!",
+	"authors": [
+		"Foksha!"
+	],
+	"contact": {
+		"sources": "https://github.com/FokshaWasTaken/force-select-world"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/force-select-world/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.foksha.ForceSelectWorld"
+		]
+	},
+	"mixins": [
+		"force-select-world.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15",
+		"minecraft": ">=1.16",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}
